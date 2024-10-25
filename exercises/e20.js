@@ -15,7 +15,7 @@ export function separateNamesWithAFromRest(array) {
 
     for (let j = 0; j < name.length; j++) {
       if (name[j] === 'a') {
-        containsA = true;
+        containsA = true
         break;
       }
     }
