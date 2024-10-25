@@ -4,8 +4,7 @@
 // getFirstTenNumbers() => [1, 2, 3, ... , 10]
 
 export function getFirstTenNumbers() {
-  // Your code goes here...
-
+  return Array.from({ length: 10 }, (_, index) => index + 1)
 }
 
 // === TEST YOURSELF ===
