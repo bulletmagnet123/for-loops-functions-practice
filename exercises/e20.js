@@ -28,6 +28,7 @@ export function separateNamesWithAFromRest(array) {
   }
 
   return [namesWithA, namesWithoutA]
+  //finished nate phelps 2024 october
 }
 
 
